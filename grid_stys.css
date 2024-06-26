@@ -1,0 +1,514 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: #cc3030;
+    gap: 30px;
+    justify-content: end;
+
+    position: sticky;
+    top: 0px;
+    z-index: 0;
+}
+
+nav img {
+    width: 100px;
+    height: 80px;
+    color: rgb(10, 43, 72);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    padding-top: 12px;
+    letter-spacing: 1px;
+
+
+}
+
+nav input {
+
+    padding: 0px;
+    border-style: none;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 15px;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 20px;
+    width: 15%;
+    height: 45%;
+}
+
+nav input:focus {
+    margin-left: 20px;
+    border-style: none;
+}
+
+nav input::placeholder {
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+    border-style: none;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    position: fixed;
+
+}
+
+.logo img {
+    width: 80px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    bottom: 10px;
+
+    font-family: 'Baloo Bhai';
+    font-size: 22px;
+}
+
+.logo #cam {
+    position: absolute;
+    left: 80%;
+    width: 200px;
+    top: 0px;
+    font-size: 25px;
+}
+
+span {
+    color: skyblue;
+    font-size: 33px;
+    /* font-family: "Courgette", cursive;
+  font-weight: 400 , bold;
+  font-style: normal; */
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  ------------- about us ------------------ */
+
+.aboutus {
+    text-align: center;
+    margin: 20px;
+}
+
+.aboutus p {
+    font-weight: bold;
+    font-size: 27px;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.aboutus #styl {
+    font-weight: bold;
+    font-size: 35px;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.aboutus #para {
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.abotcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.abot {
+    grid-row: span 2;
+    margin: 20px;
+
+}
+
+.abot img {
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.head1 {
+    font-weight: bold;
+    font-family: "Poetsen One", sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+.content {
+    width: 75%;
+}
+
+.content p {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+
+
+/*  ------------- Homepage ------------------ */
+
+.home img {
+    width: 100%;
+    height: 80vh;
+}
+
+.home .quots {
+    position: absolute;
+    top: 35%;
+    margin-left: 50px;
+    color: white;
+    font-size: 33px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*  ------------- grid ------------------*/
+
+
+
+
+.container {
+    width: 98%;
+    /* height: 99vh; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-rows: repeat(4, 1fr); */
+    gap: 10px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+}
+
+.container .box-1 img {
+
+    width: 99%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.container .box-2 img {
+
+    width: 99%;
+    height: 245px;
+    border-radius: 20px;
+}
+
+.container .box-3 img {
+
+
+    width: 99%;
+    height: 500px;
+
+    border-radius: 20px;
+}
+
+.container .box-4 img {
+
+    width: 99%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.container .box-41 img {
+
+    width: 99%;
+    height: 225px;
+    border-radius: 20px;
+}
+
+
+.container .box-5 img {
+    width: 99%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.container .box-6 img {
+    width:99%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.container .box-7 {
+    grid-column: span 2;
+
+
+}
+
+.container .box-7 img {
+    width: 99%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.container .box-8 img {
+    width: 99%;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.container .box-9 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.container .box-10 {
+    grid-column: span 2;
+}
+
+
+
+.container .box-10 img {
+    width: 99%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.container .box-11 img {
+    width: 99%;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.container .box-12 img {
+    width: 99%;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.container .box-13 img {
+
+    width: 99%;
+    height: 220px;
+    border-radius: 20px;
+
+
+}
+
+
+
+ .footer{
+    display:flex;
+    justify-content: space-around;
+    background-color:  #cc3030;
+    width: 100%;
+    height: 60%;
+   gap: 30px;
+   padding: 10px 0px;
+ }
+
+ .logo1{
+    border-left: 2px dashed black;
+
+ }
+
+ .logo1 img {
+    width: 80px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.logo1 a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    padding-top: 0px;
+    letter-spacing: 1px;
+
+    font-family: 'Baloo Bhai';
+    font-size: 20px;
+}
+
+.logo1 #cam {
+   
+    /* width: 200px; */
+    font-size: 25px;
+}
+
+.add{
+    text-align:center;
+   border-left: 2px dashed black;
+padding-left: 20px;
+}
+
+.follow{
+    text-align: center;
+   padding: 10px;
+/* padding-left: 30px; */
+}
+
+.follow a{
+    color: white;
+    padding: 5px;
+}
+
+.follow a:nth-child(2):hover{
+    color: rgb(254, 84, 54);
+}
+
+.follow a:nth-child(3):hover{
+    color:blue;
+}
+
+.follow a:nth-child(4):hover{
+    color: rgba(0, 0, 0, 0.665);
+}
+
+.follow a:nth-child(5):hover{
+    color: red;
+}
+
+.follow a:nth-child(6):hover{
+    color:navy;
+}
+
+.copy p{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 0, 0.634);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+   background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 20px;
+    border:2rem solid transparent
+}
+
+
+/* hamburger */
+
+nav input[type="checkbox"]{
+    display: none;
+  }
+  nav .checkbtn{
+  display: none;
+  }
+  
+  .checkbtn {
+    /* display: block; */
+    position: fixed;
+    top: .5rem;
+    right: 1rem;
+    z-index: 9999;
+    display: none;
+    color: white;
+    font-size: 20px;
+width: 30px;
+padding-left:12px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgb(198, 198, 38), 0 0 30px rgb(198, 198, 38), 0 0 60px rgb(198, 198, 38);
+  }
+  
+  .hamburger {
+    /* display: block; */
+    flex-direction: column;
+    position: absolute;
+    width: 30%;
+    height: 80vh;
+    background-color: #ffff;
+    top: 44px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    margin: 10px;
+    display: none;
+    z-index: -1;
+  }
+  
+  .hamburger ul li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    display: none;
+  }
+  
+  .hamburger ul li a {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    /* display: block; */
+    display: none;
+    z-index: 999;
+  }
+  
+  .hamburger ul li a:hover {
+    color: #b71300;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2) !important;
+  z-index: 999;
+  }
+  
+  #check:checked~.hamburger {
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+    display: none;
+  }
+  
+  
